@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    @apply bg-lime-700 text-white;
+}
+
+.btn-primary{
+    @apply bg-lime-500 text-stone-800 font-semibold py-2 rounded-lg shadow-lg;
+}
+
+input{
+    @apply bg-transparent outline-none px-2 border-b-2 py-2 text-white focus:border-b-lime-500;
+}

@@ -16,7 +16,7 @@ include_once "dbconnection.php";
     <title id="title"></title>
 </head>
 
-<body class="w-screen h-screen bg-stone-800">
+<body class="bg-neutral-800 w-full h-screen relative overflow-hidden">
     <?php
     if (isset($_SESSION['error'])) :
     ?>
